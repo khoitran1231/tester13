@@ -8,7 +8,7 @@ use fresher_training_management;
 
 -- tạo bảng Trainee
 create table trainee(
-	TraineeID INT PRIMARY KEY auto_increment NOT NULL,
+    TraineeID INT PRIMARY KEY auto_increment NOT NULL,
     Full_Name VARCHAR(50) NOT NULL,
     Birth_Date Date NOT NULL,
     Gender ENUM('male', 'female', 'unknown'),
