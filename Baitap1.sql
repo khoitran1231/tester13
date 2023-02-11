@@ -1,7 +1,7 @@
 -- bỏ database
 drop database if exists fresher_training_management;
 -- tạo database mới
-create database fresher_training_management;
+create database if not exists fresher_training_management;
 -- sử dụng database cụ thể
 use fresher_training_management;
 
